@@ -9,7 +9,7 @@ from collections import defaultdict
 # RUTAS
 # =====================================================
 
-PASTA_FACTURAS_BASE = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\Facturas Por semana"
+PASTA_FACTURAS_BASE = r"(Datos Personales)"
 
 SALIDA_JSON = "facturas.json"
 
