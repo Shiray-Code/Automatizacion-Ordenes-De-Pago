@@ -13,13 +13,13 @@ JSON_FACTURAS = "facturas.json"
 
 JSON_ODOO = "odoo_data.json"
 
-PASTA_TEMP = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\_temp"
+PASTA_TEMP = r"(Datos Personales)"
 
-PASTA_OP = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\Proveedores-OP"
+PASTA_OP = r"(Datos Personales)"
 
-PLANTILLA = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\Plantilla OP.xlsx"
+PLANTILLA = r"(Datos Personales)"
 
-CORRELATIVO_FILE = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\correlativo.txt"
+CORRELATIVO_FILE = r"(Datos Personales)"
 
 # =====================================================
 # LEER JSON
@@ -60,7 +60,7 @@ with open(
 
 ops_generadas = []
 
-OPS_GENERADAS_JSON = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\ops_generadas_hoy.json"
+OPS_GENERADAS_JSON = r"(Datos Personales)"
 
 for proveedor, facturas in facturas_por_proveedor.items():
 
