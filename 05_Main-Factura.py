@@ -5,7 +5,7 @@ import os
 # CARPETA SCRIPTS
 # =====================================================
 
-BASE_DIR = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Script\AutomatizacionOPs"
+BASE_DIR = r"(Datos Personales)"
 
 # =====================================================
 # LISTA SCRIPTS
