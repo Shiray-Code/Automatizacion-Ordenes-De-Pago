@@ -8,7 +8,7 @@ import win32com.client
 
 JSON_FACTURAS = "facturas.json"
 
-PASTA_OP = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\Proveedores-OP"
+PASTA_OP = r"(Datos Personales)"
 
 # =====================================================
 # LEER JSON
@@ -133,7 +133,7 @@ for proveedor, facturas in facturas_por_proveedor.items():
         # =====================================================
 
         mail.To = (
-            "Guido.Ferrufino@inprolec.cl"
+            "(Datos Personales)"
         )
 
         mail.CC = ""
@@ -161,7 +161,7 @@ for proveedor, facturas in facturas_por_proveedor.items():
         mail.HTMLBody = f"""
         <div style="font-family:Calibri; font-size:16px;">
 
-        <p>Estimado Guido,</p>
+        <p>Estimado,</p>
 
         <p>
         Favor de revisar, aprobar y firmar las siguiente OP de {proveedor}
