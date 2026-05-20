@@ -29,7 +29,7 @@ mensajes.Sort(
 # RUTA BASE
 # =====================================================
 
-PASTA_BASE = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\Facturas Por semana"
+PASTA_BASE = r"(Datos Personales)"
 
 os.makedirs(
     PASTA_BASE,
@@ -60,7 +60,7 @@ for mensaje in mensajes:
 
         if (
 
-            "Diego Alejandro Gonzales Quisbert".lower()
+            "(Datos Personales)".lower()
             in remitente.lower()
 
             and
