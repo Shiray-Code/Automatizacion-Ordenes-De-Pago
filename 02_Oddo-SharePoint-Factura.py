@@ -13,7 +13,7 @@ JSON_FACTURAS = "facturas.json"
 
 JSON_ODOO = "odoo_data.json"
 
-PASTA_TEMP = r"C:\Users\KevinDanielShirayVer\OneDrive - INPROLEC S.A\Escritorio\Gestion de Compras\_temp"
+PASTA_TEMP = r"(Datos Personales)"
 
 USER_DATA_DIR = r"C:\PlaywrightChrome"
 
@@ -263,7 +263,7 @@ with sync_playwright() as p:
             # =====================================================
 
             page.goto(
-                "https://erp.inprolec.cl/web?#view_type=list&model=purchase.order&action=378&menu_id=262"
+                "(Datos Personales)"
             )
 
             page.wait_for_load_state(
